@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663324352AFFD75A0098601E /* CarRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663324342AFFD75A0098601E /* CarRecognitionView.swift */; };
+		663324372B00171B0098601E /* ImagePickerSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663324362B00171B0098601E /* ImagePickerSwiftUI.swift */; };
+		66D67F112AFFAC76005D1393 /* Halyk_MobilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F102AFFAC76005D1393 /* Halyk_MobilityApp.swift */; };
+		66D67F132AFFAC76005D1393 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F122AFFAC76005D1393 /* ContentView.swift */; };
+		66D67F152AFFAC77005D1393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D67F142AFFAC77005D1393 /* Assets.xcassets */; };
+		66D67F192AFFAC77005D1393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D67F182AFFAC77005D1393 /* Preview Assets.xcassets */; };
+		66D67F212AFFB044005D1393 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F202AFFB044005D1393 /* NetworkClient.swift */; };
+		66D67F232AFFB09F005D1393 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F222AFFB09F005D1393 /* NetworkError.swift */; };
+		66D67F272AFFB0CD005D1393 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F262AFFB0CD005D1393 /* Location.swift */; };
+		66D67F292AFFB0EE005D1393 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F282AFFB0EE005D1393 /* Destination.swift */; };
+		66D67F2B2AFFB111005D1393 /* TaxiOrderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F2A2AFFB111005D1393 /* TaxiOrderRequest.swift */; };
+		66D67F2D2AFFB12A005D1393 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F2C2AFFB12A005D1393 /* Trip.swift */; };
+		66D67F2F2AFFB1A3005D1393 /* TripItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F2E2AFFB1A3005D1393 /* TripItem.swift */; };
+		66D67F312AFFB1AE005D1393 /* MobileKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F302AFFB1AE005D1393 /* MobileKind.swift */; };
+		66D67F332AFFB1C6005D1393 /* TaxiOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F322AFFB1C6005D1393 /* TaxiOrderResponse.swift */; };
+		66D67F352AFFB1F5005D1393 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F342AFFB1F5005D1393 /* Car.swift */; };
+		66D67F372AFFB258005D1393 /* TaxiStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F362AFFB258005D1393 /* TaxiStatus.swift */; };
+		66D67F3A2AFFB29F005D1393 /* AppProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F392AFFB29F005D1393 /* AppProvider.swift */; };
+		66D67F3F2AFFB66A005D1393 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F3E2AFFB66A005D1393 /* TabBarView.swift */; };
+		66D67F412AFFB851005D1393 /* ChatBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F402AFFB851005D1393 /* ChatBotView.swift */; };
+		66D67F432AFFB949005D1393 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F422AFFB949005D1393 /* MainView.swift */; };
+		66D67F452AFFBDC5005D1393 /* MainViewBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F442AFFBDC5005D1393 /* MainViewBottomView.swift */; };
+		66D67F472AFFBDE3005D1393 /* LastAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F462AFFBDE3005D1393 /* LastAddressView.swift */; };
+		66D67F492AFFBE72005D1393 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F482AFFBE72005D1393 /* MapView.swift */; };
+		66D67F4B2AFFBEEC005D1393 /* MainViewBottomItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D67F4A2AFFBEEC005D1393 /* MainViewBottomItemsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		663324342AFFD75A0098601E /* CarRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRecognitionView.swift; sourceTree = "<group>"; };
+		663324362B00171B0098601E /* ImagePickerSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerSwiftUI.swift; sourceTree = "<group>"; };
+		66D67F0D2AFFAC76005D1393 /* Halyk Mobility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Halyk Mobility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D67F102AFFAC76005D1393 /* Halyk_MobilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halyk_MobilityApp.swift; sourceTree = "<group>"; };
+		66D67F122AFFAC76005D1393 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66D67F142AFFAC77005D1393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66D67F162AFFAC77005D1393 /* Halyk_Mobility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Halyk_Mobility.entitlements; sourceTree = "<group>"; };
+		66D67F182AFFAC77005D1393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66D67F202AFFB044005D1393 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		66D67F222AFFB09F005D1393 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		66D67F262AFFB0CD005D1393 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		66D67F282AFFB0EE005D1393 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		66D67F2A2AFFB111005D1393 /* TaxiOrderRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiOrderRequest.swift; sourceTree = "<group>"; };
+		66D67F2C2AFFB12A005D1393 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		66D67F2E2AFFB1A3005D1393 /* TripItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItem.swift; sourceTree = "<group>"; };
+		66D67F302AFFB1AE005D1393 /* MobileKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileKind.swift; sourceTree = "<group>"; };
+		66D67F322AFFB1C6005D1393 /* TaxiOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiOrderResponse.swift; sourceTree = "<group>"; };
+		66D67F342AFFB1F5005D1393 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		66D67F362AFFB258005D1393 /* TaxiStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiStatus.swift; sourceTree = "<group>"; };
+		66D67F392AFFB29F005D1393 /* AppProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProvider.swift; sourceTree = "<group>"; };
+		66D67F3E2AFFB66A005D1393 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		66D67F402AFFB851005D1393 /* ChatBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotView.swift; sourceTree = "<group>"; };
+		66D67F422AFFB949005D1393 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		66D67F442AFFBDC5005D1393 /* MainViewBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBottomView.swift; sourceTree = "<group>"; };
+		66D67F462AFFBDE3005D1393 /* LastAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastAddressView.swift; sourceTree = "<group>"; };
+		66D67F482AFFBE72005D1393 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		66D67F4A2AFFBEEC005D1393 /* MainViewBottomItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBottomItemsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D67F0A2AFFAC76005D1393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D67F042AFFAC76005D1393 = {
+			isa = PBXGroup;
+			children = (
+				66D67F0F2AFFAC76005D1393 /* Halyk Mobility */,
+				66D67F0E2AFFAC76005D1393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66D67F0E2AFFAC76005D1393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D67F0D2AFFAC76005D1393 /* Halyk Mobility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D67F0F2AFFAC76005D1393 /* Halyk Mobility */ = {
+			isa = PBXGroup;
+			children = (
+				66D67F3B2AFFB623005D1393 /* View */,
+				66D67F382AFFB274005D1393 /* Provider */,
+				66D67F242AFFB0A6005D1393 /* Model */,
+				66D67F1F2AFFB037005D1393 /* NetworkClient */,
+				66D67F102AFFAC76005D1393 /* Halyk_MobilityApp.swift */,
+				66D67F142AFFAC77005D1393 /* Assets.xcassets */,
+				66D67F162AFFAC77005D1393 /* Halyk_Mobility.entitlements */,
+				66D67F172AFFAC77005D1393 /* Preview Content */,
+			);
+			path = "Halyk Mobility";
+			sourceTree = "<group>";
+		};
+		66D67F172AFFAC77005D1393 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66D67F182AFFAC77005D1393 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66D67F1F2AFFB037005D1393 /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				66D67F202AFFB044005D1393 /* NetworkClient.swift */,
+				66D67F222AFFB09F005D1393 /* NetworkError.swift */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		66D67F242AFFB0A6005D1393 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66D67F262AFFB0CD005D1393 /* Location.swift */,
+				66D67F282AFFB0EE005D1393 /* Destination.swift */,
+				66D67F2A2AFFB111005D1393 /* TaxiOrderRequest.swift */,
+				66D67F2C2AFFB12A005D1393 /* Trip.swift */,
+				66D67F2E2AFFB1A3005D1393 /* TripItem.swift */,
+				66D67F302AFFB1AE005D1393 /* MobileKind.swift */,
+				66D67F322AFFB1C6005D1393 /* TaxiOrderResponse.swift */,
+				66D67F342AFFB1F5005D1393 /* Car.swift */,
+				66D67F362AFFB258005D1393 /* TaxiStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66D67F382AFFB274005D1393 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				66D67F392AFFB29F005D1393 /* AppProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		66D67F3B2AFFB623005D1393 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66D67F122AFFAC76005D1393 /* ContentView.swift */,
+				66D67F3E2AFFB66A005D1393 /* TabBarView.swift */,
+				66D67F402AFFB851005D1393 /* ChatBotView.swift */,
+				66D67F422AFFB949005D1393 /* MainView.swift */,
+				66D67F442AFFBDC5005D1393 /* MainViewBottomView.swift */,
+				66D67F462AFFBDE3005D1393 /* LastAddressView.swift */,
+				66D67F482AFFBE72005D1393 /* MapView.swift */,
+				66D67F4A2AFFBEEC005D1393 /* MainViewBottomItemsView.swift */,
+				663324342AFFD75A0098601E /* CarRecognitionView.swift */,
+				663324362B00171B0098601E /* ImagePickerSwiftUI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D67F0C2AFFAC76005D1393 /* Halyk Mobility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D67F1C2AFFAC77005D1393 /* Build configuration list for PBXNativeTarget "Halyk Mobility" */;
+			buildPhases = (
+				66D67F092AFFAC76005D1393 /* Sources */,
+				66D67F0A2AFFAC76005D1393 /* Frameworks */,
+				66D67F0B2AFFAC76005D1393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Halyk Mobility";
+			productName = "Halyk Mobility";
+			productReference = 66D67F0D2AFFAC76005D1393 /* Halyk Mobility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D67F052AFFAC76005D1393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					66D67F0C2AFFAC76005D1393 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 66D67F082AFFAC76005D1393 /* Build configuration list for PBXProject "Halyk Mobility" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66D67F042AFFAC76005D1393;
+			productRefGroup = 66D67F0E2AFFAC76005D1393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D67F0C2AFFAC76005D1393 /* Halyk Mobility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D67F0B2AFFAC76005D1393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D67F192AFFAC77005D1393 /* Preview Assets.xcassets in Resources */,
+				66D67F152AFFAC77005D1393 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D67F092AFFAC76005D1393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663324372B00171B0098601E /* ImagePickerSwiftUI.swift in Sources */,
+				66D67F132AFFAC76005D1393 /* ContentView.swift in Sources */,
+				66D67F4B2AFFBEEC005D1393 /* MainViewBottomItemsView.swift in Sources */,
+				66D67F312AFFB1AE005D1393 /* MobileKind.swift in Sources */,
+				66D67F352AFFB1F5005D1393 /* Car.swift in Sources */,
+				66D67F232AFFB09F005D1393 /* NetworkError.swift in Sources */,
+				66D67F3A2AFFB29F005D1393 /* AppProvider.swift in Sources */,
+				66D67F292AFFB0EE005D1393 /* Destination.swift in Sources */,
+				66D67F272AFFB0CD005D1393 /* Location.swift in Sources */,
+				66D67F2F2AFFB1A3005D1393 /* TripItem.swift in Sources */,
+				663324352AFFD75A0098601E /* CarRecognitionView.swift in Sources */,
+				66D67F2D2AFFB12A005D1393 /* Trip.swift in Sources */,
+				66D67F332AFFB1C6005D1393 /* TaxiOrderResponse.swift in Sources */,
+				66D67F112AFFAC76005D1393 /* Halyk_MobilityApp.swift in Sources */,
+				66D67F452AFFBDC5005D1393 /* MainViewBottomView.swift in Sources */,
+				66D67F432AFFB949005D1393 /* MainView.swift in Sources */,
+				66D67F212AFFB044005D1393 /* NetworkClient.swift in Sources */,
+				66D67F412AFFB851005D1393 /* ChatBotView.swift in Sources */,
+				66D67F2B2AFFB111005D1393 /* TaxiOrderRequest.swift in Sources */,
+				66D67F3F2AFFB66A005D1393 /* TabBarView.swift in Sources */,
+				66D67F492AFFBE72005D1393 /* MapView.swift in Sources */,
+				66D67F472AFFBDE3005D1393 /* LastAddressView.swift in Sources */,
+				66D67F372AFFB258005D1393 /* TaxiStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66D67F1A2AFFAC77005D1393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66D67F1B2AFFAC77005D1393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		66D67F1D2AFFAC77005D1393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Halyk Mobility/Halyk_Mobility.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Halyk Mobility/Preview Content\"";
+				DEVELOPMENT_TEAM = ANRAW3XQPS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for Car Recognition";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenesbekov.adam.Halyk-Mobility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66D67F1E2AFFAC77005D1393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Halyk Mobility/Halyk_Mobility.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Halyk Mobility/Preview Content\"";
+				DEVELOPMENT_TEAM = ANRAW3XQPS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera for Car Recognition";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kenesbekov.adam.Halyk-Mobility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D67F082AFFAC76005D1393 /* Build configuration list for PBXProject "Halyk Mobility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D67F1A2AFFAC77005D1393 /* Debug */,
+				66D67F1B2AFFAC77005D1393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D67F1C2AFFAC77005D1393 /* Build configuration list for PBXNativeTarget "Halyk Mobility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D67F1D2AFFAC77005D1393 /* Debug */,
+				66D67F1E2AFFAC77005D1393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66D67F052AFFAC76005D1393 /* Project object */;
+}
